@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./Css/style.css" />
+    <title>Weather</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="sectionOne">
+        <header>
+          <span id="web"></span>
+        </header>
+        <div class="main">
+          <span id="temp"> </span>
+          <b id="city"> </b>
+          <div id="weather-section">
+            <i id="weather-icon"></i>
+            <div id="weather-description" class="weather"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sectionTwo">
+        <form class="search">
+          <input id="place-input" type="text" placeholder="Another Location" />
+          <button id="search-btn" title="btn"><i class="fas fa-search"></i></button>
+        </form>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
